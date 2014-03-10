@@ -1,0 +1,16 @@
+- cmd: foo
+   when: 1392871096
+- cmd: bar
+   when: 1392871212
+- cmd: baz
+   when: 1392871215
+- cmd: function cls\nend
+   when: 1393735241
+- cmd: function cls\n\nend
+   when: 1393735245
+- cmd: function cls\ncat $argv; or ls $argv\nend
+   when: 1393735261
+- cmd: function cls\ncat $argv 3>/dev/null\nor ls $argv\nend
+   when: 1393735339
+   paths:
+    - /dev/null

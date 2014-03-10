@@ -1,0 +1,4 @@
+Bundle 'mintplant/vim-literate-coffeescript'
+Bundle 'gcmt/wildfire.vim'
+Bundle 'dag/vim-fish'
+Bundle "mustache/vim-mustache-handlebars"

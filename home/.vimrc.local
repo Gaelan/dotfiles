@@ -1,0 +1,4 @@
+imap kj <ESC>
+let g:solarized_termcolors=16
+colorscheme solarized
+set background=dark
